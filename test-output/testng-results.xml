@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27619" started-at="2020-11-24T19:16:00 EST" finished-at="2020-11-24T19:16:27 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27619" started-at="2020-11-24T19:16:00 EST" finished-at="2020-11-24T19:16:27 EST">
+      <class name="testNGPackage.Day07_TaskTestNG">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="openBrowser" is-config="true" duration-ms="3407" started-at="2020-11-24T19:16:00 EST" finished-at="2020-11-24T19:16:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test.user@gmail.com.test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pa55word]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="createAccount" duration-ms="8818" started-at="2020-11-24T19:16:03 EST" data-provider="getValues" finished-at="2020-11-24T19:16:12 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Waqas222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cold]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[703-626-0000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://codegator.us]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Waqas' Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="closeBrowser" is-config="true" duration-ms="150" started-at="2020-11-24T19:16:15 EST" finished-at="2020-11-24T19:16:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="openBrowser" is-config="true" duration-ms="2595" started-at="2020-11-24T19:16:15 EST" finished-at="2020-11-24T19:16:17 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test.user@gmail.com.test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pa55word]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="createAccount" duration-ms="7678" started-at="2020-11-24T19:16:17 EST" data-provider="getValues" finished-at="2020-11-24T19:16:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Waqas333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[703-626-1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Waqas' Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testNGPackage.Day07_TaskTestNG@3224f60b]" name="closeBrowser" is-config="true" duration-ms="174" started-at="2020-11-24T19:16:27 EST" finished-at="2020-11-24T19:16:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGPackage.Day07_TaskTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
